@@ -15,5 +15,4 @@ resource "github_branch_protection" "self" {
   repository_id           = each.key
   required_linear_history = true
   allows_deletions        = false
-  lock_branch             = true
 }
