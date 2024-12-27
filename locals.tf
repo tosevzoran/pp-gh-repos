@@ -10,10 +10,5 @@ locals {
       gitignore_template = "Terraform"
       visibility         = "public"
     }
-    "pp-gh-dummy-repo" = {
-      description        = "Dummy repo to test the automation"
-      gitignore_template = "Go"
-      visibility         = "public"
-    }
   }
 }
