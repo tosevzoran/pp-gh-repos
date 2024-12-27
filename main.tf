@@ -16,8 +16,4 @@ resource "github_branch_protection" "self" {
   required_linear_history = true
   allows_deletions        = false
   lock_branch             = true
-
-  required_pull_request_reviews {
-    require_code_owner_reviews = true
-  }
 }
