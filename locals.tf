@@ -10,5 +10,10 @@ locals {
       gitignore_template = "Terraform"
       visibility         = "public"
     }
+    "pp-gh-do-droplets" = {
+      description        = "Terraform repository for managing DigitalOcean droplets"
+      gitignore_template = "Terraform"
+      visibility         = "public"
+    }
   }
 }
