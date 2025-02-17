@@ -20,5 +20,10 @@ locals {
       gitignore_template = ""
       visibility         = "public"
     }
+    "pp-gh-astro-blog2" = {
+      description        = "Astro blog repo 2"
+      gitignore_template = ""
+      visibility         = "public"
+    }
   }
 }
