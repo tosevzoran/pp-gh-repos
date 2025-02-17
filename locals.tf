@@ -15,10 +15,10 @@ locals {
       gitignore_template = "Terraform"
       visibility         = "public"
     }
-    "pp-gh-astro-blog" = {
-      description        = "Astro blog repo"
-      gitignore_template = ""
-      visibility         = "public"
-    }
+    # "pp-gh-astro-blog" = {
+    #   description        = "Astro blog repo"
+    #   gitignore_template = ""
+    #   visibility         = "public"
+    # }
   }
 }
